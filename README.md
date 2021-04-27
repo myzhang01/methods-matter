@@ -11,4 +11,10 @@ yaml, matrix_to_txt, preliminaries have to be installed by manually downloading 
 - `net install matrix_to_txt, force from (\\Client\C:\Users\myzha/Downloads/gslab_stata-master/gslab_misc/ado)`
 - `net install preliminaries, force from (\\Client\C:\Users\myzha/Downloads/gslab_stata-master/gslab_misc/ado)`
 
+
+need to install dataout: `ssc install dataout`
+
 solution devised from https://github.com/UrbanInstitute/education-data-package-stata readme
+
+
+.do file output manually moved into `raw output`. they must be manually edited to achieve figures in paper
