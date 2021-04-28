@@ -1,4 +1,6 @@
-# Revised Reproduction Package for 'Methods Matter: P-Hacking and Publication Bias in Causal Analysis in Economics' by Abel Brodeur, Nikolai Cook, and Anthony Heyes (2020)
+# reprod-brodeur-cook-heyes
+
+This is a revised reproduction package for 'Methods Matter: P-Hacking and Publication Bias in Causal Analysis in Economics' by Abel Brodeur, Nikolai Cook, and Anthony Heyes (2020).
 
 yaml, matrix_to_txt, preliminaries have to be installed by manually downloading the files from the github repos, and then installing those files into your PLUS directory with the commands below
 
@@ -20,3 +22,5 @@ solution devised from https://github.com/UrbanInstitute/education-data-package-s
 
 
 .do file output manually moved into `raw output`. they must be manually edited to achieve figures in paper
+
+typo: make caliper tables doesn't produce Table A23
