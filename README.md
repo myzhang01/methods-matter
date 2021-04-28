@@ -3,6 +3,7 @@
 yaml, matrix_to_txt, preliminaries have to be installed by manually downloading the files from the github repos, and then installing those files into your PLUS directory with the commands below
 
 
+- `cd \\Client\C:\Users\myzha\Documents\GitHub\reprod-brodeur-cook-heyes`
 - change PLUS directory to local directory with `sysdir set PLUS \\Client\C:\Users\myzha\Documents\Stata\ado`
 - download required files from github repo (needs `stata.toc`, `yaml.ado`, `yaml.pkg`, `yaml.sthlp`) and place them in a folder
 - enter `net install yaml, force from (\\Client\C:\Users\myzha/Downloads/stata-misc-master)`. files should be downloaded to your PLUS directory. type `which yaml` to confirm
@@ -13,6 +14,7 @@ yaml, matrix_to_txt, preliminaries have to be installed by manually downloading 
 
 
 need to install dataout: `ssc install dataout`
+ssc install distinct
 
 solution devised from https://github.com/UrbanInstitute/education-data-package-stata readme
 
